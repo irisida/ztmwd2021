@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-right: 1px solid rgb(251, 212, 218);
+    border-bottom: 1px solid rgb(252, 225, 229);
+    width: 400px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #ddd;
+    margin-top: 10px;
+    padding: 20px 5px 5px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 0.7s;
+}
+
+img:hover {
+    transform: scale(1.15);
+}
